@@ -1,0 +1,7 @@
+.body {
+  /* background-color: rgb(184, 203, 219); */
+  background-repeat: no-repeat;
+  background-image: url(../../public/images/montanha.png);
+
+  height: 100%;
+}
