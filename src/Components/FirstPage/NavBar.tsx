@@ -16,7 +16,6 @@ const pages: PageType[] = [
   { label: "Home", route: "/" },
   { label: "Crie sua conta", route: "/cadastro" },
   { label: "Login", route: "/login" },
-  { label: "Meus recados", route: "/recados" },
 ];
 
 function NavBar() {

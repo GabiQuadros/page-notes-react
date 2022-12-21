@@ -34,6 +34,7 @@ function NavBarRecados() {
             <Button
               variant="text"
               onClick={() => {
+                localStorage.removeItem("logged");
                 navigate("/");
               }}
             >
