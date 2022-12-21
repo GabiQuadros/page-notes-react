@@ -67,15 +67,6 @@ const CreateAccount: React.FC = () => {
     }
   };
 
-  // const isEmailExist = () => {
-  //   if (accountRedux.some(user => email === user.email)) {
-  //     errorMessage = 'E-mail já cadastrado, faça o login!';
-  //     return false;
-  //   } else {
-  //     return true;
-  //   }
-  // };
-
   const handleCreate = () => {
     if (emailValided() && confirmPassword() && passwordValided()) {
       dispatch(addAccount({ email, password: values.password }));
