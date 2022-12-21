@@ -11,15 +11,15 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAppDispatch, useAppSelector } from "../Store/hooks";
-import { addAccount, selectAccount } from "../Store/Modules/createSlice";
+import { useAppDispatch } from "../Store/hooks";
+import { addAccount } from "../Store/Modules/createSlice";
 
 interface State {
   password: string;
   showPassword: boolean;
   confirm: string;
   showConfirm: boolean;
-  valid: true;
+  valid: boolean;
 }
 
 const CreateAccount: React.FC = () => {
